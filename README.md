@@ -7,7 +7,7 @@ In the `app` folder you'll find a boilerplate(ish) template, it's similar to the
 You also have a `data` folder. Think of it as the playground for your data. 
 
 ## Let your imagination run wild ...
-Over the years we've seen many different approaches to visualize [Google Trends](https://trends.google.com/), find some inspirations here:
+Over the years, designers have taken many different approaches to visualize [Google Trends](https://trends.google.com/). Find some inspirations here:
 * [Waves of Interest](https://waves-of-interest.truth-and-beauty.net/#US)
 * [The Shape of Dreams](https://the-shape-of-dreams.com/)
 * [The Rhythm of Food](http://rhythm-of-food.net/)
