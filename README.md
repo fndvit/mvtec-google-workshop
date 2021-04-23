@@ -18,10 +18,11 @@ Over the years we've seen many different approaches to visualize [Google Trends]
 This are *mandatory* bits you'd need to include in the piece, they can be ordered however you want though —yes, you can even start with something before the title! That's called a cold open.
 
 * **Title and intro:** What am I gonna see here?
-* **Guiding text:** To explain the views
 * **Hero visualization:** The star of the show 🤩! Unleash your creativity!
+* **Guiding text:** A bit of hand-holding through the piece
+* **Annotations:** To explain noticeable bits in the views
 * **Small multiples:** Still cool, but in a *cool aunt* kind of way 😎
-* **Filters:** They can be a dropdown menu, buttons, [chips](https://svelte-materialify.vercel.app/components/chips/) ... that transform or reduce the data you're visualizing
+* **Filters:** They can be a dropdown menu, buttons, sliders, [chips](https://svelte-materialify.vercel.app/components/chips/) ... that transform or reduce the data you're visualizing
 
 ## Audience
 General public. 
