@@ -24,11 +24,11 @@ This [post](https://medium.com/google-news-lab/what-is-google-trends-data-and-wh
 Also, this [post about process](https://truth-and-beauty.net/projects/waves-of-interest) from Moritz Stefaner is worth a read.
 
 ## Inspiration
-[Waves of Interest](https://waves-of-interest.truth-and-beauty.net/#US)
-[The Shape of Dreams](https://the-shape-of-dreams.com/)
-[The Rhythm of Food](http://rhythm-of-food.net/)
-[Why Do Cats & Dogs ...?](https://whydocatsanddogs.com/)
-[Explore Adventure](http://explore-adventure.com/)
+* [Waves of Interest](https://waves-of-interest.truth-and-beauty.net/#US)
+* [The Shape of Dreams](https://the-shape-of-dreams.com/)
+* [The Rhythm of Food](http://rhythm-of-food.net/)
+* [Why Do Cats & Dogs ...?](https://whydocatsanddogs.com/)
+* [Explore Adventure](http://explore-adventure.com/)
 
 ## Teams
 |   | Cornsilk  | Fuchsia  | Turquoise  |
