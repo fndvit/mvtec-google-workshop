@@ -64,16 +64,21 @@ a:hover {
 	font-family: 'Roboto', sans-serif;
 }
 
+.graphic {
+	height:50vh;
+	margin-bottom:3rem;
+}
+
 .col, .wide {
 	margin: 0 auto;
 	width: 100%;
 }
-.col { width:40rem; }
-.wide { width:60rem; }
+
 .full {
 	width:100%;
 	margin: 0;
 }
+
 .fs {
 	width:100vw;
 	min-height:80vh;
@@ -118,4 +123,7 @@ menu {
 		top:0;
 		width:100%;
 	}
+
+	.col { width:40rem; }
+	.wide { width:60rem; }
 }

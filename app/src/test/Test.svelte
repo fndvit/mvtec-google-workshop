@@ -238,26 +238,3 @@
 			}
 		}
 	/>
-
-<style>
-
-	:global(.graphic) {
-		height:50vh;
-		margin-bottom:3rem;
-	}
-	
-	[slot="foreground"] {
-		pointer-events: none;
-	}
-	
-	[slot="foreground"] section {
-		pointer-events: all;
-	}
-	
-	section {
-		height: 80vh;
-		padding: 1em;
-		margin: 0 0 2em 0;
-	}
-
-</style>

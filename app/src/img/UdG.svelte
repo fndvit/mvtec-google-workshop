@@ -1,6 +1,5 @@
 <svg class="logo" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-   width="259.66px" height="121.52px" viewBox="0 0 259.66 121.52"
-   style="overflow:visible;enable-background:new 0 0 259.66 121.52;" xml:space="preserve">
+   width="259.66px" height="121.52px" viewBox="105 0 259.66 121.52">
 <g>
   <path d="M27.82,0c0.48,2.63,1.85,4.45,4.62,4.94c0.34,0.06,0.69,0.1,1.04,0.1c4.18,0.01,8.37,0.13,12.55-0.03
     c4.53-0.17,7.4,2.47,8.36,6.48c0.27,1.12,0.37,2.29,0.56,3.51h-1.28c-0.23-0.86-0.39-1.73-0.7-2.54c-0.79-2.05-2.46-2.96-4.53-2.99

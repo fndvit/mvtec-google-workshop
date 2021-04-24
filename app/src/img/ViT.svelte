@@ -1,5 +1,5 @@
 <svg class="logo" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-   width="126.52px" height="70.96px" viewBox="-20 -20 165 105" 
+   width="126.52px" height="70.96px" viewBox="10 -20 165 105" 
    xml:space="preserve">
     <rect style="fill-opacity: .9" x="66.94" y="19.26" width="8.01" height="7.82"/>
     <polygon style="fill-opacity: .9" points="0,0 9.75,0 32.88,70.96 24.79,70.96"/>
