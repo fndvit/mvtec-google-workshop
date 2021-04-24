@@ -10,6 +10,7 @@
 	import Map from '../components/maps/Map.svelte'
 	import Scroller from '@sveltejs/svelte-scroller'
   	import Sankey from '../components/charts/Sankey.svelte'
+	import {curveMonotoneX} from 'd3-shape'
 	import { Button, ButtonGroup, ButtonGroupItem } from 'svelte-materialify';
 
 	//Test data
@@ -100,7 +101,8 @@
 				color: ['#fc0', '#036', '#f0c'],
 				layout: 'col',
 				title:'Title',
-				desc:'Description'
+				desc:'Description',
+				curve: curveMonotoneX
 			}
 		}
 	/>
@@ -114,7 +116,8 @@
 				color: color,
 				layout: 'col',
 				title:'Title',
-				desc:'Description'
+				desc:'Description',
+				curve: curveMonotoneX
 			}
 		}
 	/>
@@ -135,7 +138,8 @@
 				color: color,
 				layout: 'col',
 				title:'Title',
-				desc:'Description'
+				desc:'Description',
+				curve: curveMonotoneX
 			}
 		}
 	/>

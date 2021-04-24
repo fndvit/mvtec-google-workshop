@@ -1,7 +1,7 @@
 <script>
 	import Axis from '../common/Axis.svelte';
 	import PointInteractive from '../common/PointInteractive.svelte';
-	import {line, curveStep} from 'd3-shape';
+	import {line} from 'd3-shape';
     import {scaleTime, scaleLinear} from 'd3-scale';
     import {max, extent} from 'd3-array'
     import { Delaunay } from 'd3-delaunay'
@@ -9,7 +9,7 @@
     export let data;
 	export let margin = {top: 20, right: 5, bottom: 20, left: 5};
 	export let options;
-	let {key, format, color, layout, title, desc } = options;
+	let {key, format, color, layout, title, desc, curve } = options;
 
 	let datum, width, height;
     
@@ -26,7 +26,7 @@
 	$: path = line()
 		.x(d => x(d.x))
 		.y(d => y(d.y))
-        .curve(curveStep);
+        .curve(curve);
 
     $: delaunay = Delaunay.from(_data.flat(), d => x(d.x), d => y(d.y))
 

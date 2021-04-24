@@ -1,14 +1,14 @@
 <script>
 	import Axis from '../common/Axis.svelte';
 	import PointInteractive from '../common/PointInteractive.svelte';
-	import {line, curveStep} from 'd3-shape';
+	import {line} from 'd3-shape';
 	import {scaleTime, scaleLinear} from 'd3-scale';
 	import {max, extent, bisector} from 'd3-array'
     
     export let data;
 	export let margin = {top: 20, right: 5, bottom: 20, left: 5};
 	export let options;
-	let {key, format, color, layout, title, desc } = options;
+	let {key, format, color, layout, title, desc, curve } = options;
 
 	let datum, width, height;
 		
@@ -23,7 +23,7 @@
 	$: path = line()
 		.x(d => x(d[key.x]))
 		.y(d => y(d[key.y]))
-		.curve(curveStep);
+		.curve(curve);
 
 	const mouseMove = (m) => {
 		const mX = (m.offsetX) ? m.offsetX : m.clientX;
