@@ -53,9 +53,9 @@ For example `Line` has:
 data={data /* Your data */}
 options={
 	{
-		key:{x: 'time', y: 'value'}, /* What column corresponds with the x values, which with the y values */
+		key:{x: 'time', y: 'value'}, /* Which column corresponds with the x values, which with the y values */
 		format: format, /* {x: formatX, y: formatY} Number formats for x and y values  */
-		color: color, /* Of the line */
+		color: color, /* ... of the line */
 		layout: 'col', /* CSS class with the size of your chart */
 		title:'Title', /* A11y title */
 		desc:'Description' /* A11y title */
