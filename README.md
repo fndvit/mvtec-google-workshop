@@ -28,7 +28,7 @@ Over the years, designers have taken many different approaches to visualize [Goo
 * [Explore Adventure](http://explore-adventure.com/)
 
 ## ... well, wild(ish), the piece has to have ...
-This are *mandatory* bits you'd need to include in the piece, they can be ordered however you want though —yes, you can even start with something before the title! That's called a cold open.
+These are *mandatory* bits you'd need to include in the piece, they can be ordered however you want though (yes, you can even start with something before the title! That's called a cold open.)
 
 * **Title and intro:** What am I gonna see here?
 * **Hero visualization:** The star of the show 🤩! Unleash your creativity!
