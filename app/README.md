@@ -49,19 +49,19 @@ For example `Line` has:
 
 <!-- prettier-ignore-start -->
 ```svelte
-    <Line 
-		data={data /* Your data */}
-		options={
-			{
-				key:{x: 'time', y: 'value'}, /* What column corresponds with the x values, which with the y values */
-				format: format, /* {x: formatX, y: formatY} Number formats for x and y values  */
-				color: color, /* Of the line */
-				layout: 'col', /* CSS class with the size of your chart */
-				title:'Title', /* A11y title */
-				desc:'Description' /* A11y title */
-			}
+<Line 
+	data={data /* Your data */}
+	options={
+		{
+			key:{x: 'time', y: 'value'}, /* What column corresponds with the x values, which with the y values */
+			format: format, /* {x: formatX, y: formatY} Number formats for x and y values  */
+			color: color, /* Of the line */
+			layout: 'col', /* CSS class with the size of your chart */
+			title:'Title', /* A11y title */
+			desc:'Description' /* A11y title */
 		}
-	/>
+	}
+/>
 ```
 <!-- prettier-ignore-end -->
 
@@ -69,22 +69,22 @@ For example `Map` has:
 
 <!-- prettier-ignore-start -->
 ```svelte
-    <Map 
-		data={data /* Your data */}
-		map={{json:world /* A topojson */, features:'countries' /* The name of the feature with the geographies */}}
-		options={
-			{
-				scale:palette(), /* Color scheme for the choropleth */
-				projection:projection, /* Map projection */
-				join:{data:'id', map:'alpha3'}, /* Which variables to use to 'join' the records with the geography */
-				value:'value', /* Which variable visualize */
-				legend:{title: '', format: ''}, /* Title of the map legend, and number format of the ticks */
-				layout:'wide' /* CSS class with the size of your chart */
-                title:'Title', /* A11y title */
-				desc:'Description' /* A11y title */
-			}
+<Map 
+	data={data /* Your data */}
+	map={{json:world /* A topojson */, features:'countries' /* The name of the feature with the geographies */}}
+	options={
+		{
+			scale:palette(), /* Color scheme for the choropleth */
+			projection:projection, /* Map projection */
+			join:{data:'id', map:'alpha3'}, /* Which variables to use to 'join' the records with the geography */
+			value:'value', /* Which variable visualize */
+			legend:{title: '', format: ''}, /* Title of the map legend, and number format of the ticks */
+			layout:'wide' /* CSS class with the size of your chart */
+            title:'Title', /* A11y title */
+			desc:'Description' /* A11y title */
 		}
-	/>
+	}
+/>
 ```
 <!-- prettier-ignore-end -->
 
