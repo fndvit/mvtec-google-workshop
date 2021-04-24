@@ -1,5 +1,11 @@
 # Workshop with Google!
-Last year, COVID-19 locked us home and upended our lives. They were hard times for many, and we want to explore the relationship between **our struggles** and **our solidarity** during the pandemic using [Google Trends](https://trends.google.com/): the dichotomy **Who/When/Where/What for we ask for help** and **Who/When/Where/What for we offer help**. For example financial struggles, mental health issues ... show up in the trends, but also finding ways to support Black Lives Matter pop up. 
+Last year, COVID-19 locked us home and upended our lives.
+
+They were hard times for many, and we want to explore the relationship between **our struggles** and **our solidarity** during the pandemic using [Google Trends](https://trends.google.com/).
+
+So the idea for this project is to visualize the dichotomy between **Who/When/Where/What for we ask for help** and **Who/When/Where/What for we offer help**. A look at the trend in the last 5 years shows [a peak around March last year](https://trends.google.com/trends/explore?date=today%205-y&q=help) ... was it the pandemic? 
+
+For example mental health issues, international solidarity and ways to support Black Lives Matter pop up in this view of [last year's trending topics](https://trends.google.com/trends/yis/2020/US/#4816dfbf-7056-428a-a89d-03bbd4a29ba6)
 
 ## In this repository
 In the `app` folder you'll find a boilerplate(ish) template, it's similar to the `mvtec-svelte-app`, with the addition of `svelte-materialify` —so we don't spend too much time overdesigning the UI.

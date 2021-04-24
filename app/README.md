@@ -73,7 +73,7 @@ For example `Map` has:
 data={data /* Your data */}
 map={{json:world /* A topojson */, features:'countries' /* The name of the feature with the geographies */}}
 options={
-	{
+	{	
 		scale:palette(), /* Color scheme for the choropleth */
 		projection:projection, /* Map projection */
 		join:{data:'id', map:'alpha3'}, /* Which variables to use to 'join' the records with the geography */
