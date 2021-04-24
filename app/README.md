@@ -47,6 +47,7 @@ They have (should have) a `data` prop and an `options` prop; each with their uni
 
 For example `Line` has:
 
+<!-- prettier-ignore-start -->
     ```svelte
     <Line 
 		data={data /* Your data */}
@@ -62,9 +63,11 @@ For example `Line` has:
 		}
 	/>
     ```
+<!-- prettier-ignore-end -->
 
 For example `Map` has:
 
+<!-- prettier-ignore-start -->
     ```svelte
     <Map 
 		data={data /* Your data */}
@@ -83,11 +86,12 @@ For example `Map` has:
 		}
 	/>
     ```
+<!-- prettier-ignore-end -->
 
 ### UI
 The template uses [Svelte Materialify](https://svelte-materialify.vercel.app/) so you don't need to overthink UI elements.
 
-It also uses [Svelte Scroller](https://github.com/sveltejs/svelte-scroller) because why wouldn't you scrollytell stories.
+It also uses [Svelte Scroller](https://github.com/sveltejs/svelte-scroller) because why wouldn't you *scrollytell* stories.
 
 ## Building and running in production mode
 
