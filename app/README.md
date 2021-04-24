@@ -48,7 +48,7 @@ They have (should have) a `data` prop and an `options` prop; each with their uni
 For example `Line` has:
 
 <!-- prettier-ignore-start -->
-    ```svelte
+```svelte
     <Line 
 		data={data /* Your data */}
 		options={
@@ -62,13 +62,13 @@ For example `Line` has:
 			}
 		}
 	/>
-    ```
+```
 <!-- prettier-ignore-end -->
 
 For example `Map` has:
 
 <!-- prettier-ignore-start -->
-    ```svelte
+```svelte
     <Map 
 		data={data /* Your data */}
 		map={{json:world /* A topojson */, features:'countries' /* The name of the feature with the geographies */}}
@@ -85,7 +85,7 @@ For example `Map` has:
 			}
 		}
 	/>
-    ```
+```
 <!-- prettier-ignore-end -->
 
 ### UI
