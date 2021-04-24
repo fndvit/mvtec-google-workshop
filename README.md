@@ -11,6 +11,8 @@ A look at the trend in the last 5 years shows [a peak around March last year](ht
 
 For example mental health issues, international solidarity and ways to support Black Lives Matter pop up in this view of [last year's trending topics](https://trends.google.com/trends/yis/2020/US/#4816dfbf-7056-428a-a89d-03bbd4a29ba6)
 
+We're thrilled to count with the support of [Google News Lab](https://newsinitiative.withgoogle.com/google-news-lab): [Simon Rogers](https://simonrogers.net/) and [Alberto Cairo](http://albertocairo.com/) will assit with the data, editorial and visual angle of this project!! They'll also be joining us at the hackathon on May 15.
+
 ## In this repository
 In the [`app`](app) folder you'll find a boilerplate(ish) template, it's similar to the `mvtec-svelte-app`, with the addition of `svelte-materialify` —so we don't spend too much time overdesigning the UI.
 
@@ -19,6 +21,7 @@ You also have a [`data`](data) folder. Think of it as the playground for your da
 ## Let your imagination run wild ...
 Over the years, designers have taken many different approaches to visualize [Google Trends](https://trends.google.com/). Find some inspirations here:
 * [Waves of Interest](https://waves-of-interest.truth-and-beauty.net/#US)
+* [A Year in Lockdown Trends](https://lockdown-trends.appspot.com/)
 * [The Shape of Dreams](https://the-shape-of-dreams.com/)
 * [The Rhythm of Food](http://rhythm-of-food.net/)
 * [Why Do Cats & Dogs ...?](https://whydocatsanddogs.com/)
