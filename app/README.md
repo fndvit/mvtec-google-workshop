@@ -80,7 +80,7 @@ options={
 		value:'value', /* Which variable visualize */
 		legend:{title: '', format: ''}, /* Title of the map legend, and number format of the ticks */
 		layout:'wide' /* CSS class with the size of your chart */
-    title:'Title', /* A11y title */
+		title:'Title', /* A11y title */
 		desc:'Description' /* A11y title */
 	}
 }
