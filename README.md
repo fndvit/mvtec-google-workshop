@@ -32,8 +32,7 @@ These are *mandatory* bits you'd need to include in the piece, they can be order
 
 * **Title and intro:** What am I gonna see here?
 * **Hero visualization:** The star of the show 🤩! Unleash your creativity!
-* **Guiding text:** A bit of hand-holding through the visual
-* **Annotations:** To explain noticeable bits in the views
+* **Guiding text and annotations:** A bit of hand-holding through the visual, to explain noticeable bits in the views
 * **Small multiples:** Still cool, but in a *cool aunt* kind of way 😎
 * **Filters:** They can be a dropdown menu, buttons, sliders, [chips](https://svelte-materialify.vercel.app/components/chips/) ... that transform or reduce the data you're visualizing
 
